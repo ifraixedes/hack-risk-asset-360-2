@@ -11,3 +11,50 @@
 .hr-left-bar {
   background-color: #7b0046;
 }
+
+.row.numbers,
+.row.ticks{
+  margin: 0;
+}
+#page-wrapper {
+  background-color: #3b0022;
+}
+.crop-one{
+  background-image: url("/images/art.jpg");
+  width: 100%;
+  height: 210px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.huge{
+  margin-top: 30%;
+}
+.numbers li{
+  border-radius: 0 !important;
+  border: 5px solid #7b0046;
+  border-width: 5px 5px 5px 0;
+  height: 50px;
+}
+.card div, .card li{
+  background-color: #3b0022;
+  color: white;
+}
+.card{
+  border: 5px solid #7b0046;
+  padding: 0;
+}
+.panel-heading{
+  padding: 0;
+}
+.card > div{
+  padding: 0;
+}
+.card .row{
+  margin: 0;
+}
+.panel-heading >div>div{
+  padding: 0;
+}
+.list-group li:last-child{
+  border-right: 0;
+}
