@@ -11,3 +11,56 @@
 .hr-left-bar {
   background-color: #7b0046;
 }
+
+.hr-inner-right-bar {
+  background-color: #480029;
+  height: 95vh;
+  border-left-color: darkblue;
+  border-left-width: 2px;
+  padding: 0;
+  border-left-style: solid;
+}
+
+.hr-page-wrapper {
+  padding: 0 !important;
+}
+
+.hr-dashboard-container {
+  padding: 10px;
+}
+
+.hr-inner-right-bar-logo {
+  margin: auto;
+  text-align: center;
+  padding-top: 3vh;
+}
+
+.hr-inner-right-bar-content {
+  margin: 2vw;
+  color: grey;
+  text-align: justify;
+}
+
+.hr-inner-right-bar-content h4 {
+  color: white;
+  text-align: center;
+}
+
+.hr-inner-right-bar-content b {
+  font-weight: 900;
+  color: white;
+}
+
+.hr-inner-right-bar-conn-service {
+  margin: auto;
+  text-align: center;
+  margin-top: 3vh;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.hr-inner-right-bar-conn-service img:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: yellow;
+}
