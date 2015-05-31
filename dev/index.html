@@ -195,7 +195,8 @@
                   </div>
                   <div class="form-group">
                     <label for="exampleInputPassword1">Monthly fee</label>
-                    <input value="" type="text" class="form-control" id="exampleInputPassword1">
+                    <input id="monthFee" value="" type="text" class="form-control" id="exampleInputPassword1">
+                    <h1 style="display: none" id="offer"> $ 25/month </h1>
                   </div>
                   <div class="form-group">
                     <label for="exampleInputFile">Upload image</label>
@@ -207,7 +208,7 @@
                     </label>
                   </div>
                   <div class="text-center">
-                    <button type="button" class="btn btn-lg btn-alert">Get offer from Allianz</button>
+                    <button type="button" id="getOffer" class="btn btn-lg btn-alert">Get offer from Allianz</button>
                   </div>
 
               </form>
@@ -239,7 +240,13 @@
     <script src="/scripts/vendor/plugins/morris/raphael.min.js"></script>
     <script src="/scripts/vendor/plugins/morris/morris.min.js"></script>
     <script src="/scripts/vendor/plugins/morris/morris-data.js"></script>
-
+    <script type="text/javascript">
+      $('#getOffer').click(function(){
+        console.log('clicked');
+        $('#monthFee').fadeOut();
+        $('#offer').fadeIn();
+      });
+    </script>
 </body>
 
 </html>
