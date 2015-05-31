@@ -78,3 +78,7 @@
 .middle-part img{
   cursor: pointer;
 }
+
+#demo{
+	font-size: 1.1em;
+}
