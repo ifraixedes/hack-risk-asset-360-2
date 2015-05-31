@@ -13,7 +13,7 @@
 }
 
 .hr-inner-right-bar {
-  background-color: #7b0046;
+  background-color: #67003b;
   height: 1000px;
   border-left-color: darkblue;
   border-left-width: 2px;
@@ -22,6 +22,10 @@
   position: absolute;
   right: 0;
   top: 52px;
+}
+
+.hr-inner-right-bar .logo {
+  width: 13%;
 }
 
 .hr-page-wrapper {
@@ -82,10 +86,25 @@
 #demo{
 	font-size: 1.1em;
 }
+
 .middle-part img:hover {
   opacity: 0.8;
 }
+
+.hr-title:hover {
+  color: black !important;
+}
+
 button.btn.btn-primary {
   background-color: #7b0046;
   border-color: #7b0046;
+}
+
+#demoMast{
+	border-style:solid;
+	border-left-color:#7b0046;
+	font-size: 1.2em;
+	color: #fff;
+	text-align: center;
+
 }
