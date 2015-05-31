@@ -85,3 +85,7 @@
 .middle-part img:hover {
   opacity: 0.8;
 }
+button.btn.btn-primary {
+  background-color: #7b0046;
+  border-color: #7b0046;
+}
