@@ -78,6 +78,10 @@
 .middle-part img{
   cursor: pointer;
 }
+
+#demo{
+	font-size: 1.1em;
+}
 .middle-part img:hover {
   opacity: 0.8;
 }
