@@ -1,0 +1,17 @@
+
+
+.hr-theme {
+  background-color: #7b0046;
+}
+
+.hr-top-bar {
+  background-color: #fff;
+}
+
+.hr-left-bar {
+  background-color: #7b0046;
+}
+
+.hr-menu-active {
+  background-color: rgba(0, 0, 0, 20);
+}
