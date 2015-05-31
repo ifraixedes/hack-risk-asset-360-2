@@ -78,3 +78,6 @@
 .middle-part img{
   cursor: pointer;
 }
+.middle-part img:hover {
+  opacity: 0.8;
+}
